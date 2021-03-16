@@ -1,0 +1,41 @@
+{
+  "name": "personal-web-application",
+  "version": "0.0.1",
+  "description": "My Personal Website for branding and showcase my skill.",
+  "main": "server.js",
+  "license": "GPL-3.0-only",
+  "engines": {
+    "node": "15.x",
+    "npm": "7.x"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s3822042/personal-web-application.git"
+  },
+  "author": "Vo Thanh Luan",
+  "bugs": {
+    "url": "https://github.com/s3822042/personal-web-application/issues"
+  },
+  "homepage": "https://github.com/s3822042/personal-web-application#readme",
+  "keywords": [],
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "proxy": "http://127.0.0.1:5000"
+}

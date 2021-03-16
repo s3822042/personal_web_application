@@ -1,0 +1,54 @@
+/* Font */
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../../src/fonts/OpenSans/OpenSans-Bold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../src/fonts/OpenSans/OpenSans-Light.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans Medium";
+  src: url("../src/fonts/OpenSans/OpenSans-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans Light";
+  src: url("../src/fonts/NunitoSans/NunitoSans-Light.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans Bold";
+  src: url("../src/fonts/NunitoSans/NunitoSans-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans Medium";
+  src: url("../src/fonts/NunitoSans/NunitoSans-SemiBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans Roman";
+  src: url("../src/fonts/NunitoSans/NunitoSans-Regular.ttf");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

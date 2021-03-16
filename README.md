@@ -24,7 +24,7 @@ The web application should be running on [localhost:5000](http://localhost:5000/
 
 ## File Structure
 
-```javascript
+```
 .
 ├── .vscode/ - Visual Studio Code configuration files
 ├── src/ - Backend App
@@ -70,6 +70,6 @@ The web application should be running on [localhost:5000](http://localhost:5000/
 
 ## Credit
 
-This site using create-react-app as project structure
+This site using create-react-app as front-end project structure
 
 For more information, please visit - <https://reactjs.org/docs/create-a-new-react-app.html/>

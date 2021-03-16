@@ -9,6 +9,7 @@ connectDB();
 //dotenv config
 dotenv.config();
 
+
 const app = express();
 
 //Creating API for user

@@ -1,41 +1,41 @@
 /* Font */
 @font-face {
   font-family: "Open Sans Bold";
-  src: url("../../src/fonts/OpenSans/OpenSans-Bold.ttf");
+  src: url("../../frontend/src/fonts/OpenSans/OpenSans-Bold.ttf");
   font-display: swap;
 }
 @font-face {
   font-family: "Open Sans Light";
-  src: url("../src/fonts/OpenSans/OpenSans-Light.ttf");
+  src: url("../../frontend/src/fonts/OpenSans/OpenSans-Light.ttf");
   font-display: swap;
 }
 @font-face {
   font-family: "Open Sans Medium";
-  src: url("../src/fonts/OpenSans/OpenSans-Regular.ttf");
+  src: url("../../frontend/src/fonts/OpenSans/OpenSans-Regular.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Nunito Sans Light";
-  src: url("../src/fonts/NunitoSans/NunitoSans-Light.ttf");
+  src: url("../../frontend/src/fonts/NunitoSans/NunitoSans-Light.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Nunito Sans Bold";
-  src: url("../src/fonts/NunitoSans/NunitoSans-Bold.ttf");
+  src: url("../../frontend/src/fonts/NunitoSans/NunitoSans-Bold.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Nunito Sans Medium";
-  src: url("../src/fonts/NunitoSans/NunitoSans-SemiBold.ttf");
+  src: url("../../frontend/src/fonts/NunitoSans/NunitoSans-SemiBold.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Nunito Sans Roman";
-  src: url("../src/fonts/NunitoSans/NunitoSans-Regular.ttf");
+  src: url("../../frontend/src/fonts/NunitoSans/NunitoSans-Regular.ttf");
   font-display: swap;
 }
 

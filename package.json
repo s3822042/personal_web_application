@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/s3822042/personal-web-application/issues"
   },
-  "homepage": "https://github.com/s3822042/personal-web-application#readme",
+  "homepage": "https://s3822042.github.io/personal_web_application/",
   "keywords": [],
   "devDependencies": {
     "concurrently": "^6.0.0",

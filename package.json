@@ -19,7 +19,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon backend/server/server.js",
+    "start": "node backend/server",
+    "start:dev": "nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },

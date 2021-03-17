@@ -16,6 +16,7 @@
     "eslint-plugin-react": "^7.22.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1",
     "workbox-core": "^5.1.4",
@@ -49,7 +50,7 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "no allt op_mini"
     ],
     "development": [
       "last 1 chrome version",

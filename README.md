@@ -24,7 +24,7 @@ The web application should be running on [localhost:5000](http://localhost:5000/
 
 ## File Structure
 
-```
+```js script
 .
 ├── .vscode/ - Visual Studio Code configuration files
 ├── src/ - Backend App

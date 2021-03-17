@@ -1,9 +1,10 @@
-const { app, BrowserWindow } = require("electron");
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { app, BrowserWindow } from 'electron'
 
-const path = require("path");
-const url = require("url");
+import { join } from 'path'
+import { format } from 'url'
 
-let mainWindow;
+let mainWindow
 
 function createWindow() {
   mainWindow = new BrowserWindow({
@@ -12,32 +13,32 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
-  });
+  })
 
   mainWindow.loadURL(
-    process.env.ELECTRON_START_URL ||
-      url.format({
-        pathname: path.join(__dirname, "/../public/index.html"),
-        protocol: "file:",
+    process.env.ELECTRON_START_URL
+      || format({
+        pathname: join(__dirname, '/../public/index.html'),
+        protocol: 'file:',
         slashes: true,
-      })
-  );
+      }),
+  )
 
-  mainWindow.on("closed", () => {
-    mainWindow = null;
-  });
+  mainWindow.on('closed', () => {
+    mainWindow = null
+  })
 }
 
-app.on("ready", createWindow);
+app.on('ready', createWindow)
 
-app.on("window-all-closed", () => {
-  if (process.platform !== "darwin") {
-    app.quit();
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') {
+    app.quit()
   }
-});
+})
 
-app.on("activate", () => {
+app.on('activate', () => {
   if (mainWindow === null) {
-    createWindow();
+    createWindow()
   }
-});
+})

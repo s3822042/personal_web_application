@@ -17,13 +17,22 @@ const NavBar = () => (
       </Link>
       <div className="navbar-nav">
         <Link className="nav-item nav-link active" to="/">
-          Help
+          Home
         </Link>
-        <Link className="nav-item nav-link active" to="List">
-          Join Us
+        <Link className="nav-item nav-link active" to="/About">
+          About me
         </Link>
-        <Link className="nav-item nav-link active" to="MasterDetail">
-          Sign in
+        <Link className="nav-item nav-link active" to="Experience">
+          Experience
+        </Link>
+        <Link className="nav-item nav-link active" to="Project">
+          Project
+        </Link>
+        <Link className="nav-item nav-link active" to="Qualifications">
+          Qualifications
+        </Link>
+        <Link className="nav-item nav-link active" to="Contact">
+          Contact me
         </Link>
       </div>
     </nav>

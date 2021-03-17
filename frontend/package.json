@@ -9,7 +9,7 @@
     "axios": "^0.21.1",
     "cra-template": "1.1.2",
     "cross-env": "^7.0.3",
-    "eslint": "^7.20.0",
+    "eslint": "^7.22.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -28,7 +28,7 @@
   "homepage": "./",
   "main": "src/start.js",
   "scripts": {
-    "start": "nf start -p 3000",
+    "start": "HTTPS=true nf start -p 3000",
     "build": "react-scripts build",
     "deploy": "npm run build && gh-pages -d build",
     "test": "react-scripts test --env=jsdom",

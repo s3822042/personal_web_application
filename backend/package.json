@@ -1,17 +1,17 @@
 {
-  "name": "personal-web-application",
+  "name": "backend",
   "version": "0.0.1",
   "description": "My Personal Website for branding and showcase my skill.",
-  "main": "server.js",
+  "main": "index.js",
   "private": true,
   "license": "GPL-3.0-only",
   "engines": {
     "node": "15.x",
     "npm": "7.x"
   },
-  "type": "module",
   "dependencies": {
     "axios": "^0.21.1",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
@@ -19,10 +19,8 @@
     "mongoose": "^5.11.12"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon backend/server",
-    "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm start\" \"npm run client\""
+    "start": "node index",
+    "server": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -37,6 +35,5 @@
   "devDependencies": {
     "concurrently": "^6.0.0",
     "nodemon": "^2.0.7"
-  },
-  "proxy": "http://127.0.0.1:5000"
+  }
 }

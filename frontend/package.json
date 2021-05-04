@@ -1,51 +1,52 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "no op_mini all",
-      "ie 10"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ],
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "postcss:dev": "npx postcss src/App.css -o src/tailwind.css"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
     "dependencies": {
-      "@craco/craco": "^6.1.1",
-      "@testing-library/jest-dom": "^5.11.10",
-      "@testing-library/react": "^11.2.5",
-      "@testing-library/user-event": "^12.8.3",
-      "postcss-cli": "^7.1.2",
-      "react": "^17.0.2",
-      "react-dom": "^17.0.2",
-      "react-hook-form": "^7.3.4",
-      "react-icons": "^4.2.0",
-      "react-loader-spinner": "^4.0.0",
-      "react-scripts": "4.0.3",
-      "web-vitals": "^1.1.1"
+        "@craco/craco": "^6.1.1",
+        "@testing-library/jest-dom": "^5.11.10",
+        "@testing-library/react": "^11.2.5",
+        "@testing-library/user-event": "^12.8.3",
+        "postcss-cli": "^7.1.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-hook-form": "^7.3.4",
+        "react-icons": "^4.2.0",
+        "react-loader-spinner": "^4.0.0",
+        "react-scripts": "4.0.3",
+        "web-vitals": "^1.1.1"
     },
     "devDependencies": {
-      "@tailwindcss/postcss7-compat": "^2.0.4",
-      "autoprefixer": "^9.8.6",
-      "eslint": "^7.23.0",
-      "eslint-plugin-react": "^7.23.1",
-      "postcss": "^7.0.35",
-      "react-router-dom": "^5.2.0",
-      "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
+        "@tailwindcss/postcss7-compat": "^2.0.4",
+        "autoprefixer": "^9.8.6",
+        "eslint": "^7.23.0",
+        "eslint-plugin-react": "^7.23.1",
+        "postcss": "^7.0.35",
+        "react-router-dom": "^5.2.0",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
     }
-  }
 }

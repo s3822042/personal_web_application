@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-darker mx-auto pt-20 lg:pt-72 flex flex-col items-center justify-center">
+    <div className="bg-darker mx-auto pt-20 lg:pt-72 flex flex-col items-center justify-center text-white ">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -18,13 +18,13 @@ function Footer() {
           />
         </svg>
       </div>
-      <div className="text-white flex flex-col md:items-center pt-3">
-        <h1 className="text-2xl">Vo Thanh Luan</h1>
+      <div className="flex flex-col md:items-center pt-3">
+        <h1 className="text-2xl text-white ">Vo Thanh Luan</h1>
         <div className="md:flex items-center mt-5 md:mt-10 text-base text-color f-f-l">
-          <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer">
+          <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer text-white ">
             Download Résume
           </h2>
-          <h2 className="cursor-pointer">License</h2>
+          <h2 className="cursor-pointer text-white ">License</h2>
         </div>
         <div className="my-6 text-base text-color f-f-l">
           <ul className="md:flex items-center">

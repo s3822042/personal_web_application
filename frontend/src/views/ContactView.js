@@ -1,5 +1,13 @@
 import React from "react";
 
-const ContactView = () => {};
+import NavBar from "../components/NavBar/NavBar";
+import Footer from "../components/Footer/Footer";
+
+const ContactView = () => (
+  <div>
+    <NavBar />
+    <Footer />
+  </div>
+);
 
 export default ContactView;

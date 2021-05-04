@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 function NavBar() {
@@ -15,8 +16,6 @@ function NavBar() {
             height={54}
             viewBox="0 0 300 300"
             width={53}
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
           >
             <g>
               <path
@@ -25,9 +24,11 @@ function NavBar() {
               />
             </g>
           </svg>
-          <p className="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800">
-            Vo Thanh Luan
-          </p>
+          <a href="/">
+            <p className="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800">
+              Vo Thanh Luan
+            </p>
+          </a>
         </div>
         <div>
           <div
@@ -76,19 +77,19 @@ function NavBar() {
             </div>
             <ul className="flex text-3xl md:text-base items-center py-8 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white z-20">
               <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
-                <a href="/about">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
-                <a href="/experience">Experience</a>
+                <Link to="/experience">Experience</Link>
               </li>
               <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
-                <a href="/project">Project</a>
+                <Link to="/project">Project</Link>
               </li>
               <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
-                <a href="/qualifications">Qualifications</a>
+                <Link to="/qualifications">Qualifications</Link>
               </li>
               <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>

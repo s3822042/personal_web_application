@@ -1,5 +1,13 @@
 import React from "react";
 
-const ExperienceView = () => {};
+import NavBar from "../components/NavBar/NavBar";
+import Footer from "../components/Footer/Footer";
+
+const ExperienceView = () => (
+  <div>
+    <NavBar />
+    <Footer />
+  </div>
+);
 
 export default ExperienceView;

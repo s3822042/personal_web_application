@@ -7,18 +7,20 @@ function Project() {
     <>
       <div className="py-20 bg-cover bg-no-repeat bg-fixed hero-bg">
         <div className="container m-auto text-center px-6 opacity-100">
-          <h2 className="text-4xl font-bold mb-2 text-white">Pr</h2>
+          <h2 className="text-4xl font-bold mb-2 text-white">All Projects</h2>
           <h3 className="text-2xl mb-8 text-gray-200">
             Not much, but it could be a life form. This is Rouge Two. this is
             Rouge Two. Captain Solo, so you copy?
           </h3>
-          <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider hover:border-transparent hover:text-blue-500 hover:bg-gray-800">
-            Commander Skywalker, do you copy?
-          </button>
+          <a href="#main-content">
+            <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider hover:border-transparent hover:text-blue-500 hover:bg-gray-800">
+              Commander Skywalker, do you copy?
+            </button>
+          </a>
         </div>
       </div>
 
-      <section className="container mx-auto px-6 p-10">
+      <section id="main-content" className="container mx-auto px-6 p-10">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
           Artoo!
         </h2>

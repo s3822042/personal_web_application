@@ -37,15 +37,15 @@ const App = () => {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/About" component={About} />
-        <Route path="/Experience" component={Experience} />
-        <Route path="/Project" component={Project} />
-        <Route path="/Qualifications" component={Qualifications} />
-        <Route path="/Contact" component={Contact} />
+        <Route path="/about" component={About} />
+        <Route path="/experience" component={Experience} />
+        <Route path="/project" component={Project} />
+        <Route path="/qualifications" component={Qualifications} />
+        <Route path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </>
   )
 }
 
-export default App
+export default App;

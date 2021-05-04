@@ -1,53 +1,15 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@craco/craco": "^6.1.1",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.1",
-    "cross-env": "^7.0.3",
-    "eslint": "^7.22.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
-  },
-  "homepage": "./",
-  "main": "src/start.js",
-  "type": "module",
   "scripts": {
-    "start": "cross-env HTTPS=true nf start -p 3000",
-    "start:dev": "webpack serve --mode=development",
-    "build": "react-scripts build",
-    "build:dev": "webpack --mode production",
-    "dev": "webpack serve --mode development --env development",
-    "deploy": "npm run build && gh-pages -d build",
-    "test": "craco test --env=jsdom",
-    "eject": "react-scripts eject",
-    "electron": "electron .",
-    "electron-start": "node src/start-react",
-    "react-start": "cross-env BROWSER=none react-scripts start",
-    "pack": "build --dir",
-    "dist": "npm run build && build",
-    "postinstall": "install-app-deps"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
     ]
   },
   "browserslist": {
@@ -61,33 +23,29 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.13.10",
-    "@babel/preset-react": "^7.12.13",
-    "@tailwindcss/postcss7-compat": "^2.0.3",
-    "@webpack-cli/serve": "^1.3.0",
-    "autoprefixer": "^9.8.6",
-    "babel-loader": "^8.1.0",
-    "electron": "^12.0.1",
-    "electron-builder": "^22.9.1",
-    "gh-pages": "^3.1.0",
-    "postcss": "^7.0.35",
-    "react-hot-loader": "^4.13.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
-    "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2"
-
-  },
-  "build": {
-    "appId": "com.electron.electron-with-create-react-app",
-    "win": {
-      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
+    ],
+    "dependencies": {
+      "@craco/craco": "^6.1.1",
+      "@testing-library/jest-dom": "^5.11.10",
+      "@testing-library/react": "^11.2.5",
+      "@testing-library/user-event": "^12.8.3",
+      "postcss-cli": "^7.1.2",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-hook-form": "^7.3.4",
+      "react-icons": "^4.2.0",
+      "react-loader-spinner": "^4.0.0",
+      "react-scripts": "4.0.3",
+      "web-vitals": "^1.1.1"
     },
-    "directories": {
-      "buildResources": "public"
+    "devDependencies": {
+      "@tailwindcss/postcss7-compat": "^2.0.4",
+      "autoprefixer": "^9.8.6",
+      "eslint": "^7.23.0",
+      "eslint-plugin-react": "^7.23.1",
+      "postcss": "^7.0.35",
+      "react-router-dom": "^5.2.0",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
     }
   }
 }

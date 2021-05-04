@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "My Personal Website for branding and showcase my skill.",
   "main": "server.js",
+  "private": true,
   "license": "GPL-3.0-only",
   "engines": {
     "node": "15.x",
@@ -19,8 +20,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "start:dev": "nodemon backend/server",
+    "start": "nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },

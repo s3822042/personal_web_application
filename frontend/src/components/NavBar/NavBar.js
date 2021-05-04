@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./NavBar.module.css";
+import "./NavBar.css";
 
 function NavBar() {
   const [show, setShow] = useState(false);

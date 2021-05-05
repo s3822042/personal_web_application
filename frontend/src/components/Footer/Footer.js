@@ -1,4 +1,5 @@
 import React from "react";
+import BackToTop from "../../utils/BackToTop";
 
 function Footer() {
   return (
@@ -39,6 +40,7 @@ function Footer() {
         </div>
         <div className="text-sm mb-10">
           <p> © 2021 Vo Thanh Luan. All rights reserved</p>
+          <BackToTop />
         </div>
       </div>
     </div>

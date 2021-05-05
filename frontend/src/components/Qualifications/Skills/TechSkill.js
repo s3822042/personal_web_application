@@ -3,7 +3,7 @@ import ExploreIcon from "@material-ui/icons/Explore";
 
 const TechSKill = () => {
   return (
-    <div className="flex flex-wrap items-center pt-32">
+    <div className="flex flex-wrap items-center">
       <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
         <div className="justify-center flex flex-wrap relative">
           <div className="my-4 w-full lg:w-6/12 px-4">

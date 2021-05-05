@@ -13,6 +13,7 @@ module.exports = {
         "body-bold": "Nunito Sans Bold",
       },
       colors: {
+        purple: "#8b5cf6",
         green: "#1DB954",
         dark: "#121212",
         light: "#282828",

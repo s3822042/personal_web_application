@@ -1,6 +1,8 @@
 import React from "react";
 import "./Project.css";
-import HandleFilter from "./Filter/HandleFilter.js";
+import HandleFilter from "./Filter/HandleFilter";
+import Pagination from "../Pagination/Pagination";
+import Demo from "./Demo/Demo";
 
 function Project() {
   return (
@@ -145,7 +147,19 @@ function Project() {
           </button>
         </div>
       </section>
-      <HandleFilter />
+      <div>
+        <HandleFilter />
+        <Pagination />
+      </div>
+
+      <div className="bg-darker">
+        <div className="container mx-auto text-center py-20">
+          <h2 className="mb-6 text-4xl font-bold text-center text-white">
+            Project Demo
+          </h2>
+          <Demo />
+        </div>
+      </div>
     </>
   );
 }

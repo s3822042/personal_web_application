@@ -1,13 +1,12 @@
 import React from "react";
-import ImageAvatars from "../Image/ImageAvatars";
+import AboutDetails from "../Details/AboutDetails";
 
 export const About = () => {
   return (
-    <div className="w-full flex items-center justify-center">
-      <div>
-        <ImageAvatars />
+    <div className="">
+      <div className="">
+        <AboutDetails />
       </div>
-      <div className=""></div>
     </div>
   );
 };

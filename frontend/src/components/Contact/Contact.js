@@ -42,8 +42,8 @@ function Contact() {
               Lets talk about everything!
             </h2>
             <div className="text-gray-700 mt-8">
-              Hate forms? Send me an <span className="underline">email</span>{" "}
-              instead.
+              Hate forms? Send me an{" "}
+              <a href="mailto:paulluanvothanh@gmail.com" className="underline">email</a> instead.
             </div>
           </div>
           <div className="mt-8 text-center">

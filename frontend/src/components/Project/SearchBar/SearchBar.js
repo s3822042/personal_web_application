@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SearchMenu from "./SearchMenu";
-import SearchIcon from "./SearchIcon";
+import SearchIcon from "./SearchIcons";
 
 function SearchBar() {
   const [showMessage, setShowMessage] = useState(false);
@@ -11,7 +11,7 @@ function SearchBar() {
   return (
     <>
       <a
-        className="pl-3 inline-block no-underline hover:text-black"
+        className="px-6 inline-block no-underline hover:text-black"
         onClick={() => showSearchBar()}
       >
         {!showMessage && <SearchIcon />}

@@ -4,17 +4,17 @@ import SearchBar from "../SearchBar/SearchBar";
 
 function NavMenu() {
   return (
-    <nav className="w-full z-30 top-0 py-1">
+    <div className="w-full z-30 top-0 py-1">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
-        <a className="tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl px-6">
+        <h2 className="tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl px-6">
           All Projects
-        </a>
-        <div className="flex items-center">
+        </h2>
+        <div className="flex items-center px-2">
           {/* <Filter /> */}
           <SearchBar />
         </div>
       </div>
-    </nav>
+    </div>
   );
 }
 

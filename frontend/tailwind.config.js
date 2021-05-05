@@ -1,7 +1,12 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   purge: [],
   darkMode: "media", // or 'media' or 'class'
   theme: {
+    colors: {
+      ...colors,
+    },
     extend: {
       fontFamily: {
         "header-bold": "Open Sans Bold",

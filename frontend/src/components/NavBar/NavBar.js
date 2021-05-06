@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./NavBar.css";
 
 function NavBar() {
   const [show, setShow] = useState(false);
   return (
     <nav className="w-full">
-      <div className="container mx-auto px-6 flex items-center justify-between">
+      <div className="container flex items-center justify-between px-6 mx-auto">
         <div className="flex items-center">
           <svg
             aria-label="Home"
-            className="cursor-pointer w-8 sm:w-auto"
+            className="w-8 cursor-pointer sm:w-auto"
             id="logo"
             enableBackground="new 0 0 300 300"
             height={54}
@@ -25,7 +24,7 @@ function NavBar() {
             </g>
           </svg>
           <a href="/">
-            <p className="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800">
+            <p className="ml-2 text-base font-bold text-gray-800 lg:ml-4 lg:text-2xl">
               Vo Thanh Luan
             </p>
           </a>
@@ -33,13 +32,13 @@ function NavBar() {
         <div>
           <div
             onClick={() => setShow(!show)}
-            className="sm:block md:hidden lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none"
+            className="text-gray-500 sm:block md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none"
           >
             <svg
               aria-haspopup="true"
               aria-label="Main Menu"
               xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8"
+              className="w-8 h-8"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -58,11 +57,11 @@ function NavBar() {
           >
             <div
               onClick={() => setShow(!show)}
-              className="block md:hidden lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 fixed focus:outline-none z-30 top-0 pt-3"
+              className="fixed top-0 z-30 block pt-3 text-gray-500 md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8"
+                className="w-8 h-8"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
@@ -75,20 +74,20 @@ function NavBar() {
                 <line x1={6} y1={6} x2={18} y2={18} />
               </svg>
             </div>
-            <ul className="flex text-3xl md:text-base items-center py-8 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white z-20">
-              <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
+            <ul className="fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 text-3xl bg-white md:text-base md:flex md:flex-row md:relative">
+              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/about">About</Link>
               </li>
-              <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
+              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/experience">Experience</Link>
               </li>
-              <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
+              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/project">Project</Link>
               </li>
-              <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
+              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/qualifications">Qualifications</Link>
               </li>
-              <li className="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0">
+              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>

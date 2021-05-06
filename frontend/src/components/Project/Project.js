@@ -1,30 +1,18 @@
 import React from "react";
 import "./Project.css";
+import Hero from "../hero/Hero";
 import HandleFilter from "./Filter/HandleFilter";
-import Pagination from "../Pagination/Pagination";
+import Pagination from "../pagination/Pagination";
 import Demo from "./Demo/Demo";
-
+import Newsletter from "../newsletter/Newsletter";
 function Project() {
   return (
     <>
-      <div className="py-20 bg-cover bg-no-repeat bg-fixed hero-bg">
-        <div className="container m-auto text-center px-6 opacity-100">
-          <h2 className="text-4xl font-bold mb-2 text-white">All Projects</h2>
-          <h3 className="text-2xl mb-8 text-gray-200">
-            Not much, but it could be a life form. This is Rouge Two. this is
-            Rouge Two. Captain Solo, so you copy?
-          </h3>
-          <a href="#main-content">
-            <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider hover:border-transparent hover:text-blue-500 hover:bg-gray-800">
-              Commander Skywalker, do you copy?
-            </button>
-          </a>
-        </div>
-      </div>
+      <Hero />
 
       <section id="main-content" className="container mx-auto px-6 p-10">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
-          Artoo!
+          What I have done
         </h2>
         <div className="flex items-center flex-wrap mb-20">
           <div className="w-full md:w-1/2 pr-10">
@@ -160,6 +148,7 @@ function Project() {
           <Demo />
         </div>
       </div>
+      <Newsletter />
     </>
   );
 }

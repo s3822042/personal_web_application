@@ -1,8 +1,8 @@
 import React from "react";
 
-import NavBar from "../components/NavBar/NavBar";
-import Experience from "../components/Experience/Experience";
-import Footer from "../components/Footer/Footer";
+import NavBar from "../components/navbar/NavBar";
+import Experience from "../components/experience/Experience";
+import Footer from "../components/footer/Footer";
 
 const ExperienceView = () => (
   <div>

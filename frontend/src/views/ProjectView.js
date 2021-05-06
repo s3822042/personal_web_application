@@ -1,8 +1,8 @@
 import React from "react";
 
-import NavBar from "../components/NavBar/NavBar";
-import Project from "../components/Project/Project";
-import Footer from "../components/Footer/Footer";
+import NavBar from "../components/navbar/NavBar";
+import Project from "../components/project/Project";
+import Footer from "../components/footer/Footer";
 
 const ProjectView = () => (
   <div>

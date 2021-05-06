@@ -1,14 +1,26 @@
 import React from "react";
-import AboutDetails from "../Details/AboutDetails";
+import Hero from "../hero/Hero";
+import "./About.css";
+import Info from "../detail/Info";
+import Content from "../detail/Content";
+import AboutDetails from "../detail/AboutDetailLeft";
 
-export const About = () => {
+function About() {
   return (
     <div className="">
+      <Hero />
       <div className="">
+        <div className="py-5">
+          <Content />
+        </div>
+
         <AboutDetails />
+        <div className="py-5">
+          <Info />
+        </div>
       </div>
     </div>
   );
-};
+}
 
 export default About;

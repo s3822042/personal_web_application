@@ -6,6 +6,7 @@ import ExperienceView from "./views/ExperienceView";
 import ProjectView from "./views/ProjectView";
 import QualificationView from "./views/QualificationView";
 import ContactView from "./views/ContactView";
+import LicenseView from "./views/LicenseView";
 
 const App = () => (
   <Router>
@@ -16,6 +17,7 @@ const App = () => (
       <Route path="/project" component={ProjectView} />
       <Route path="/qualifications" component={QualificationView} />
       <Route path="/contact" component={ContactView} />
+      <Route path="/license" component={LicenseView} />
     </Switch>
   </Router>
 );

@@ -6,7 +6,7 @@ import PieChart from "./PieChart";
 function Chart() {
   return (
     <div className="flex flex-wrap items-center">
-      <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+      <div className="w-full md:w-4/12 px-12 md:px-4 mx-auto mt-48">
         <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
           <WebIcon />
         </div>
@@ -19,7 +19,7 @@ function Chart() {
           and give more options to your users.
         </p>
       </div>
-      <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
+      <div className="w-full md:w-6/12 px-4 mx-auto mt-32">
         <PieChart />
       </div>
     </div>

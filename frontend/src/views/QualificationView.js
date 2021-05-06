@@ -1,8 +1,8 @@
 import React from "react";
 
-import NavBar from "../components/NavBar/NavBar";
-import Qualifications from "../components/Qualifications/Qualifications";
-import Footer from "../components/Footer/Footer";
+import NavBar from "../components/navbar/NavBar";
+import Qualifications from "../components/qualification/Qualifications";
+import Footer from "../components/footer/Footer";
 
 const QualificationView = () => (
   <div>

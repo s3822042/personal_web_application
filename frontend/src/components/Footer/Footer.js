@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BackToTop from "../../utils/BackToTop";
 
 function Footer() {
   return (
-    <div className="bg-darker mx-auto pt-20 flex flex-col items-center justify-center text-white ">
+    <div className="flex flex-col items-center justify-center pt-20 mx-auto text-white bg-darker ">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,26 +20,34 @@ function Footer() {
           />
         </svg>
       </div>
-      <div className="flex flex-col md:items-center pt-3">
+      <div className="flex flex-col pt-3 md:items-center">
         <h1 className="text-2xl text-white ">Vo Thanh Luan</h1>
-        <div className="md:flex items-center mt-5 md:mt-10 text-base text-color f-f-l">
-          <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer text-white ">
+        <div className="items-center mt-5 text-base md:flex md:mt-10 text-color f-f-l">
+          <h2 className="pb-4 text-white cursor-pointer md:mr-6 md:py-0">
             Download Résume
           </h2>
-          <h2 className="cursor-pointer text-white ">License</h2>
+          <h2 className="text-white cursor-pointer ">
+            <Link to="/license">License</Link>
+          </h2>
         </div>
         <div className="my-6 text-base text-color f-f-l">
-          <ul className="md:flex items-center">
-            <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">About</li>
-            <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Experience</li>
-            <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Project</li>
-            <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">
-              Qualifications
+          <ul className="items-center md:flex">
+            <li className="pt-4 cursor-pointer md:mr-6 lg:py-0">
+              <Link to="/about">About</Link>
             </li>
-            <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Contact</li>
+            <li className="pt-4 cursor-pointer md:mr-6 lg:py-0">
+              <Link to="/experience">Experience</Link>
+            </li>
+            <li className="pt-4 cursor-pointer md:mr-6 lg:py-0">Project</li>
+            <li className="pt-4 cursor-pointer md:mr-6 lg:py-0">
+              <Link to="/qualifications">Qualifications</Link>
+            </li>
+            <li className="pt-4 cursor-pointer md:mr-6 lg:py-0">
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
-        <div className="text-sm mb-10">
+        <div className="mb-10 text-sm">
           <p> © 2021 Vo Thanh Luan. All rights reserved</p>
           <BackToTop />
         </div>

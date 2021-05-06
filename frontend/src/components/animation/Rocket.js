@@ -1,8 +1,8 @@
 import React from "react";
 import Lottie from "react-lottie";
-import animationData from "../../lotties/black-guy-animation.json";
+import animationData from "../../lotties/tsp-pro.json";
 
-const BlackGuyAnimation = () => {
+function Rocket() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -17,6 +17,6 @@ const BlackGuyAnimation = () => {
       <Lottie options={defaultOptions} height={400} width={400} />
     </div>
   );
-};
+}
 
-export default BlackGuyAnimation;
+export default Rocket;

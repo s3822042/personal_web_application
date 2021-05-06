@@ -1,17 +1,16 @@
 import React from "react";
-import Banner from "../Banner/Banner";
+import Banner from "../banner/Banner";
 import FirstRowContent from "./FirstRowContent";
+import AnimationRevealPage from "../../helpers/AnimationRevealPage";
 
-import Newsletter from "../Newsletter/Newsletter";
 
-const Home = () => {
+function Home() {
   return (
-    <>
+    <AnimationRevealPage>
       <Banner />
       <FirstRowContent />
-      <Newsletter />
-    </>
+    </AnimationRevealPage>
   );
-};
+}
 
 export default Home;

@@ -1,15 +1,15 @@
 import React from "react";
 
 import NavBar from "../components/navbar/NavBar";
-import Contact from "../components/contact/Contact";
+import License from "../components/license/License";
 import Footer from "../components/footer/Footer";
 
-const ContactView = () => (
+const LicenseView = () => (
   <>
     <NavBar />
-    <Contact />
+    <License />
     <Footer />
   </>
 );
 
-export default ContactView;
+export default LicenseView;

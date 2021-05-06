@@ -1,15 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRocket } from "@fortawesome/free-solid-svg-icons";
-import Rocket from "../Animations/Rocket";
+import Rocket from "../animation/Rocket";
 
-const FirstRowContent = () => {
+function FirstRowContent() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="items-center flex flex-col md:flex-row">
-        <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
+    <div className="container px-4 py-8 mx-auto">
+      <div className="flex flex-col items-center md:flex-row">
+        <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
           <div className="md:pr-4">
-            <div className="text-red-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+            <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-center text-red-600 bg-white rounded-full shadow-lg">
               <FontAwesomeIcon className="text-xl" icon={faRocket} />
             </div>
             <h3 className="text-3xl font-semibold">About me</h3>
@@ -19,12 +19,12 @@ const FirstRowContent = () => {
             </p>
           </div>
         </div>
-        <div className="w-full md:w-4/12 mr-auto px-4 md:pt-0 my-0">
+        <div className="w-full px-4 my-0 mr-auto md:w-4/12 md:pt-0">
           <Rocket />
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default FirstRowContent;

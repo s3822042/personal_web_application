@@ -40,7 +40,7 @@ const SvgDotPattern4 = tw(
   SvgDotPatternIcon
 )`absolute bottom-0 right-0 transform translate-x-20 rotate-90 -translate-y-24 -z-10 opacity-25 text-primary-500 fill-current w-24`;
 
-export default () => {
+function Company() {
   const cards = [
     {
       imageSrc: require("../../assets/work/fiverr.png").default,
@@ -100,4 +100,6 @@ export default () => {
       <SvgDotPattern4 />
     </Container>
   );
-};
+}
+
+export default Company;

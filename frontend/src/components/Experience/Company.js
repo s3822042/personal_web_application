@@ -48,7 +48,6 @@ function Company() {
       title: "Freelancing Designer",
       description:
         "Take requests in creating 2D models, UI/UX design using Photoshop, Illustrator. Be  familiar  with  Blender  in  creating  3D  character  models.  In  charge  of  using Premiere to edit simple videos",
-      url: "https://timerse.com",
     },
 
     {

@@ -1,23 +1,24 @@
 import React from "react";
 import "./Project.css";
 import Hero from "../hero/Hero";
-import HandleFilter from "./Filter/HandleFilter";
+import AllProject from "./Filter/AllProject";
 import Pagination from "../pagination/Pagination";
 import Demo from "./Demo/Demo";
 import Newsletter from "../newsletter/Newsletter";
+import FadeSlider from "../slider/FadeSlider";
+
 function Project() {
   return (
-    <>
+    <div>
       <Hero />
-
-      <section id="main-content" className="container mx-auto px-6 p-10">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <div className="container p-10 px-6 mx-auto">
+        <h2 className="mb-8 text-4xl font-bold text-center text-gray-800">
           What I have done
         </h2>
-        <div className="flex items-center flex-wrap mb-20">
-          <div className="w-full md:w-1/2 pr-10">
-            <h4 className="text-3xl text-gray-800 font-bold mb-3">Vortex</h4>
-            <p className="text-gray-600 mb-8">
+        <div className="flex flex-wrap items-center mb-20">
+          <div className="w-full pr-10 md:w-1/2">
+            <h4 className="mb-3 text-3xl font-bold text-gray-800">Vortex</h4>
+            <p className="mb-8 text-gray-600">
               Their primary target will be the power generators. Prepare to open
               the shield. Sir, Rebel ships are coming into our sector. Good. Our
               first catch of the day. Stand by, ion control....Fire! The first
@@ -32,7 +33,7 @@ function Project() {
             />
           </div>
         </div>
-        <div className="flex items-center flex-wrap mb-20">
+        <div className="flex flex-wrap items-center mb-20">
           <div className="w-full md:w-1/2">
             <img
               className="rounded-lg"
@@ -40,11 +41,11 @@ function Project() {
               alt="use the force"
             />
           </div>
-          <div className="w-full md:w-1/2 pl-10">
-            <h4 className="text-3xl text-gray-800 font-bold mb-3">
+          <div className="w-full pl-10 md:w-1/2">
+            <h4 className="mb-3 text-3xl font-bold text-gray-800">
               Use the Force!
             </h4>
-            <p className="text-gray-600 mb-8">
+            <p className="mb-8 text-gray-600">
               We will never get it out now. So certain are you. Always with you
               it cannot be done. Hear you nothing that I say? Master, moving
               stones around is one thing. This is totally different. No! No
@@ -52,12 +53,12 @@ function Project() {
             </p>
           </div>
         </div>
-        <div className="flex items-center flex-wrap mb-20">
-          <div className="w-full md:w-1/2 pr-10">
-            <h4 className="text-3xl text-gray-800 font-bold mb-3">
+        <div className="flex flex-wrap items-center mb-20">
+          <div className="w-full pr-10 md:w-1/2">
+            <h4 className="mb-3 text-3xl font-bold text-gray-800">
               Life creates it
             </h4>
-            <p className="text-gray-600 mb-8">
+            <p className="mb-8 text-gray-600">
               There is no try. I ca. It is too big. Size matters not. Look at
               me. Judge me by my size, do you? Hm? Mmmm. And well you should
               not. For my ally in the Force. And a powerful ally it is.
@@ -71,49 +72,49 @@ function Project() {
             />
           </div>
         </div>
-      </section>
+      </div>
 
       <section className="bg-gray-100">
-        <div className="container mx-auto px-6 py-20">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+        <div className="container px-6 py-20 mx-auto">
+          <h2 className="mb-8 text-4xl font-bold text-center text-gray-800">
             Artoo expresses
           </h2>
           <div className="flex flex-wrap">
-            <div className="w-full h-auto md:w-1/3 px-2 mb-4">
-              <div className="flex flex-col justify-between h-full bg-white rounded shadow py-2">
-                <p className="text-gray-800 text-base px-6 mb-5">
+            <div className="w-full h-auto px-2 mb-4 md:w-1/3">
+              <div className="flex flex-col justify-between h-full py-2 bg-white rounded shadow">
+                <p className="px-6 mb-5 text-base text-gray-800">
                   How are you feeling, kid? You do not look so bad to me. In
                   fact, you look strong enough to pull the ears off a Gundark.
                   Thanks to you.
                 </p>
-                <p className="text-gray-500 text-xs md:text-sm px-6">
+                <p className="px-6 text-xs text-gray-500 md:text-sm">
                   Luke Skywalker
                 </p>
               </div>
             </div>
 
-            <div className="w-full h-auto md:w-1/3 px-2 mb-4">
-              <div className="flex flex-col justify-between h-full bg-white rounded shadow py-2">
-                <p className="text-gray-800 text-base px-6 mb-5">
+            <div className="w-full h-auto px-2 mb-4 md:w-1/3">
+              <div className="flex flex-col justify-between h-full py-2 bg-white rounded shadow">
+                <p className="px-6 mb-5 text-base text-gray-800">
                   That two you owe me, junior. Well your Worship, looks like you
                   managed to keep me around for a little while longer. I had
                   nothing to do with it.
                 </p>
-                <p className="text-gray-500 text-xs md:text-sm px-6">
+                <p className="px-6 text-xs text-gray-500 md:text-sm">
                   Emperors Royal Guards
                 </p>
               </div>
             </div>
 
-            <div className="w-full h-auto md:w-1/3 px-2 mb-4">
-              <div className="flex flex-col justify-between h-full bg-white rounded shadow py-2">
-                <p className="text-gray-800 text-base px-6 mb-5">
+            <div className="w-full h-auto px-2 mb-4 md:w-1/3">
+              <div className="flex flex-col justify-between h-full py-2 bg-white rounded shadow">
+                <p className="px-6 mb-5 text-base text-gray-800">
                   General Rieekan thinks it is dangerous for any ships to leave
                   the system until we have activated the energy shield. That is
                   a good story. I think you just cant bear to let a gorgeous guy
                   like me out of your sight
                 </p>
-                <p className="text-gray-500 text-xs md:text-sm px-6">
+                <p className="px-6 text-xs text-gray-500 md:text-sm">
                   Queen Mother Taa Chume
                 </p>
               </div>
@@ -123,25 +124,25 @@ function Project() {
       </section>
 
       <section className="bg-light">
-        <div className="container mx-auto px-6 text-center py-20">
+        <div className="container px-6 py-20 mx-auto text-center">
           <h2 className="mb-6 text-4xl font-bold text-center text-white">
             Headquarters personnel
           </h2>
           <h3 className="my-4 text-2xl text-white">
             Report to command center. Take it easy.
           </h3>
-          <button className="bg-white font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider hover:border-red hover:text-white hover:bg-red-600">
+          <button className="px-8 py-4 mt-6 font-bold tracking-wider uppercase bg-white rounded-full shadow-lg hover:border-red hover:text-white hover:bg-red-600">
             Report
           </button>
         </div>
       </section>
       <div>
-        <HandleFilter />
+        <AllProject />
         <Pagination />
       </div>
 
       <div className="bg-darker">
-        <div className="container mx-auto text-center py-20">
+        <div className="container py-20 mx-auto text-center">
           <h2 className="mb-6 text-4xl font-bold text-center text-white">
             Project Demo
           </h2>
@@ -149,7 +150,10 @@ function Project() {
         </div>
       </div>
       <Newsletter />
-    </>
+      <div className="w-full bg-lightest">
+        <FadeSlider />
+      </div>
+    </div>
   );
 }
 

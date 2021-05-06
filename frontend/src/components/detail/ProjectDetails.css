@@ -1,0 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-bg{
+    background-image: url("../../assets/hero/project-hero.jpg");
+    height: 540px;
+}

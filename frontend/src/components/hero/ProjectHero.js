@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-function NavBar() {
+
+function ProjectHero() {
   const [show, setShow] = useState(false);
   return (
-    <div className="w-full">
+    <div className="w-full bg-fixed bg-no-repeat bg-cover hero-bg">
       <div className="container flex items-center justify-between px-6 mx-auto">
         <div className="flex items-center">
           <a href="/">
-            <p className="ml-2 text-base font-bold text-gray-800 lg:ml-4 lg:text-2xl">
+            <p className="ml-2 text-base font-bold text-white hover:text-gray-800 lg:ml-4 lg:text-2xl">
               Vo Thanh Luan
             </p>
           </a>
@@ -58,20 +59,20 @@ function NavBar() {
                 <line x1={6} y1={6} x2={18} y2={18} />
               </svg>
             </div>
-            <ul className="fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 text-3xl bg-white md:text-base md:flex md:flex-row md:relative">
-              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
+            <ul className="fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 text-3xl md:text-base md:flex md:flex-row md:relative">
+              <li className="pt-10 text-white cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/about">About</Link>
               </li>
-              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
+              <li className="pt-10 text-white cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/experience">Experience</Link>
               </li>
-              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
+              <li className="pt-10 text-white cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/project">Project</Link>
               </li>
-              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
+              <li className="pt-10 text-white cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/qualifications">Qualifications</Link>
               </li>
-              <li className="pt-10 text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
+              <li className="pt-10 text-white cursor-pointer hover:text-gray-800 md:ml-10 md:pt-0">
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
@@ -81,4 +82,4 @@ function NavBar() {
     </div>
   );
 }
-export default NavBar;
+export default ProjectHero;

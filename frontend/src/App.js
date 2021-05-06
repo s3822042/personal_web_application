@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomeView from "./views/HomeView";
 import AboutView from "./views/AboutView";
@@ -7,6 +8,7 @@ import ProjectView from "./views/ProjectView";
 import QualificationView from "./views/QualificationView";
 import ContactView from "./views/ContactView";
 import LicenseView from "./views/LicenseView";
+
 
 const App = () => (
   <Router>

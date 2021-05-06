@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { ReactComponent as SvgDotPatternIcon } from "../../assets/dot-pattern.svg";
-import { SectionHeading as HeadingTitle } from "../misc/Headings";
 
 const Container = tw.div`relative`;
 
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 
+const HeadingTitle = tw.h2`text-4xl font-bold text-center text-gray-800 mb-8`;
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
 const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-sm`;
 

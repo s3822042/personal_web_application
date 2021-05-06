@@ -2,154 +2,227 @@ import React from "react";
 
 function Content() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
-        <div className="flex flex-col justify-center">
-          <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{" "}
-              <span className="relative px-1">
-                <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400" />
-                <span className="relative inline-block text-deep-purple-accent-400">
-                  a lazy dog
-                </span>
-              </span>
-            </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
-            </p>
-          </div>
-          <p className="mb-4 text-sm font-bold tracking-widest uppercase">
-            Features
+    <section className="dark:bg-darker dark:text-darker">
+      <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+        <div>
+          <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-darker">
+            Aliquip definiebas ad est
+          </h2>
+          <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-darker">
+            Quando cetero his ne, eum admodum sapientem ut.
           </p>
-          <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
-            <ul className="space-y-3">
-              <li className="flex">
-                <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+        </div>
+        <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+          <div>
+            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-darker">
+              Ad vix debet docendi
+            </h3>
+            <p className="mt-3 text-lg dark:text-darker">
+              Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos
+              etiam regione ut, persius eripuit quo id. Sit te euismod
+              tacimates.
+            </p>
+            <div className="mt-12 space-y-12">
+              <div className="flex">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-darker dark:text-darker">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
                       fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </span>
-                A slice of heaven
-              </li>
-              <li className="flex">
-                <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      className="w-7 h-7"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-lg font-medium leading-6 dark:text-darker">
+                    Per ei quaeque sensibus
+                  </h4>
+                  <p className="mt-2 dark:text-darker">
+                    Ex usu illum iudico molestie. Pro ne agam facete
+                    mediocritatem, ridens labore facete mea ei. Pro id apeirian
+                    dignissim.
+                  </p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-darker dark:text-darker">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
                       fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </span>
-                Disrupt inspire
-              </li>
-              <li className="flex">
-                <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      className="w-7 h-7"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-lg font-medium leading-6 dark:text-darker">
+                    Cu imperdiet posidonium sed
+                  </h4>
+                  <p className="mt-2 dark:text-darker">
+                    Amet utinam aliquando ut mea, malis admodum ocurreret nec
+                    et, elit tibique cu nec. Nec ex maluisset inciderint, ex
+                    quis.
+                  </p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-darker dark:text-darker">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
                       fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </span>
-                Preliminary thinking
-              </li>
-            </ul>
-            <ul className="space-y-3">
-              <li className="flex">
-                <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </span>
-                Flipboard curmudgeon
-              </li>
-              <li className="flex">
-                <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </span>
-                Storage shed
-              </li>
-              <li className="flex">
-                <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </span>
-                Satoshi Nakamoto
-              </li>
-            </ul>
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      className="w-7 h-7"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-lg font-medium leading-6 dark:text-darker">
+                    Nulla omittam sadipscing mel ne
+                  </h4>
+                  <p className="mt-2 dark:text-darker">
+                    At sed possim oporteat probatus, justo graece ne nec, minim
+                    commodo legimus ut vix. Ut eos iudico quando soleat, nam
+                    modus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div aria-hidden="true" className="mt-10 lg:mt-0">
+            <img
+              src="https://source.unsplash.com/random/360x480"
+              alt=""
+              className="mx-auto rounded-lg shadow-lg"
+            />
           </div>
         </div>
         <div>
-          <img
-            className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-            src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-            alt=""
-          />
+          <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+            <div className="lg:col-start-2">
+              <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-darker">
+                Eam nibh gloriatur ex
+              </h3>
+              <p className="mt-3 text-lg dark:text-darker">
+                Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te
+                latine theophrastus. Ea his tale nibh dissentias, mei exerci
+                tamquam euripidis cu.
+              </p>
+              <div className="mt-12 space-y-12">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md bg-purple dark:bg-darker dark:text-darker"></div>
+                  </div>
+                  <div className="ml-4">
+                    <h4 className="text-lg font-medium leading-6 dark:text-darker">
+                      Cibo augue offendit has ad
+                    </h4>
+                    <p className="mt-2 dark:text-darker">
+                      An per velit appellantur, ut utinam minimum nominavi sit,
+                      odio nostro habemus ne nec. Ne sonet regione contentiones
+                      est.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-darker dark:text-darker">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        className="w-7 h-7"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <h4 className="text-lg font-medium leading-6 dark:text-darker">
+                      At eum ferri luptatum lobortis
+                    </h4>
+                    <p className="mt-2 dark:text-darker">
+                      Te per quidam maiorum ocurreret, etiam delicatissimi usu
+                      ad. Ne has quod periculis. Te sit primis iisque
+                      efficiantur.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-darker dark:text-darker">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        className="w-7 h-7"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <h4 className="text-lg font-medium leading-6 dark:text-darker">
+                      Dicunt verterem evertitur eu sea
+                    </h4>
+                    <p className="mt-2 dark:text-darker">
+                      Audire principes rationibus eam an, autem nominavi
+                      luptatum per te. Sumo fabulas vim eu, sonet saperet
+                      eleifend ut vix.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
+              <img
+                src="https://source.unsplash.com/random/361x481"
+                alt=""
+                className="mx-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

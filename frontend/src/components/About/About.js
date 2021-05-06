@@ -2,8 +2,8 @@ import React from "react";
 import Hero from "../hero/Hero";
 import "./About.css";
 import Info from "../detail/Info";
+import DescribeMe from "../detail/DescribeMe";
 import Content from "../detail/Content";
-import AboutDetails from "../detail/AboutDetailLeft";
 
 function About() {
   return (
@@ -11,10 +11,10 @@ function About() {
       <Hero />
       <div className="">
         <div className="py-5">
+          <DescribeMe />
           <Content />
         </div>
 
-        <AboutDetails />
         <div className="py-5">
           <Info />
         </div>

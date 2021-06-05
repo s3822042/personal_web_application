@@ -2,3 +2,5 @@
 src/**/tailwind.css
 .vscode
 node_modules
+yarn.lock
+package-json.lock

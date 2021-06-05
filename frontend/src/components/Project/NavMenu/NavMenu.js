@@ -1,5 +1,4 @@
 import React from "react";
-// import Filter from "../Filter/Filter";
 import SearchBar from "../SearchBar/SearchBar";
 
 function NavMenu() {
@@ -10,7 +9,6 @@ function NavMenu() {
           All Projects
         </h2>
         <div className="flex items-center px-2">
-          {/* <Filter /> */}
           <SearchBar />
         </div>
       </div>

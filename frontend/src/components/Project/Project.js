@@ -5,7 +5,6 @@ import AllProject from "./Filter/AllProject";
 import Pagination from "../pagination/Pagination";
 import Demo from "./Demo/Demo";
 import Newsletter from "../newsletter/Newsletter";
-import FadeSlider from "../slider/FadeSlider";
 
 function Project() {
   return (
@@ -150,9 +149,6 @@ function Project() {
         </div>
       </div>
       <Newsletter />
-      <div className="w-full bg-lightest">
-        <FadeSlider />
-      </div>
     </div>
   );
 }

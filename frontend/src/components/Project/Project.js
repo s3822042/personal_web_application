@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 import Hero from "../hero/Hero";
-import AllProject from "./Filter/AllProject";
+import ProjectPage from "./Filter/ProjectPage";
 import Pagination from "../pagination/Pagination";
 import Demo from "./Demo/Demo";
 import Newsletter from "../newsletter/Newsletter";
@@ -136,7 +136,7 @@ function Project() {
         </div>
       </section>
       <div>
-        <AllProject />
+        <ProjectPage />
         <Pagination />
       </div>
 
